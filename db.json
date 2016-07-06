@@ -1,17 +1,6 @@
 {
   "dogs": [
     {
-      "id": "b2efa075-29f5-4063-a4b5-1b16d99459af",
-      "dogname": "Ron"
-    },
-    {
-      "id": "5b6aaf33-4b7b-4349-891c-57aeca94d947",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
       "id": "96b7c953-ffe8-4988-96e6-e4cd5568ed96",
       "likesDogs": true,
       "likesHumans": true,
@@ -62,6 +51,96 @@
       "likesHumans": true,
       "likesKids": true,
       "wantsPlaymates": true
+    },
+    {
+      "id": "1b59015c-70c9-46bb-9db7-1599ba3d08d4",
+      "dogName": "Ron",
+      "breed": "Blackmouth Curr",
+      "size": "medium",
+      "color": "brown",
+      "age": "4",
+      "gender": "male",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true,
+      "timesAtPark": "every evening 5:30 pm",
+      "notes": "makes scary noises"
+    },
+    {
+      "id": "87756b5e-cfd6-460c-8672-4db481e8396b",
+      "dogName": "Ron",
+      "breed": "Blackmouth Curr",
+      "size": "medium",
+      "color": "brown",
+      "age": "4",
+      "gender": "male",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true,
+      "timesAtPark": "every evening 5:30 pm",
+      "notes": "makes scary noises"
+    },
+    {
+      "id": "594d3b78-cdd9-47cb-b59a-a155c2aef1f0",
+      "dogName": "Ron",
+      "breed": "Blackmouth Curr",
+      "size": "medium",
+      "color": "brown",
+      "age": "4",
+      "gender": "male",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true,
+      "timesAtPark": "every evening 5:30 pm",
+      "notes": "makes scary noises"
+    },
+    {
+      "id": "46d3494b-adf5-43c1-8f07-0099199be4cc",
+      "dogName": "Ron",
+      "breed": "Blackmouth Curr",
+      "size": "medium",
+      "color": "brown",
+      "age": "4",
+      "gender": "male",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true,
+      "timesAtPark": "every evening 5:30 pm",
+      "notes": "makes scary noises"
+    },
+    {
+      "id": "73c8a5ba-5d00-44c0-8f31-cd0582b7efd4",
+      "dogName": "Ron",
+      "breed": "Blackmouth Curr",
+      "size": "medium",
+      "color": "brown",
+      "age": "4",
+      "gender": "male",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true,
+      "timesAtPark": "every evening 5:30 pm",
+      "notes": "makes scary noises"
+    },
+    {
+      "id": "7b701c1d-9117-4b58-8a55-00c65c6b85e8",
+      "dogName": "Ron",
+      "breed": "Blackmouth Curr",
+      "size": "medium",
+      "color": "brown",
+      "age": "4",
+      "gender": "male",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true,
+      "timesAtPark": "every evening 5:30 pm",
+      "notes": "makes scary noises"
     }
   ]
 }
