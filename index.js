@@ -49,12 +49,23 @@ response.send(result);
 
 server.put('/dogs/:id', function(request, response){
   var updatedDogsInfo = {
-    description: request.body.description,
-    isComplete: request.body.isComplete,
+    dogName: request.body.dogName,
+    breed: request.body.breed,
+    size: request.body.size,
+    color: request.body.color,
+    age: request.body.age,
+    gender: request.body.gender,
+    likesDogs: true,
+    likesHumans: true,
+    likesKids: true,
+    wantsPlaymates: true,
+    timesAtPark: request.body.timesAtPark,
+    notes: request.body.notes,
   };
-  var updatedDogs = db.get('todos')
+
+  var updatedDogs = db.get('dogs')
                     .find({id: request.params.id})
-                    .assign(updatedTodoInfo)
+                    .assign(updatedDogsInfo)
                     .value();
   response.send(updatedDogs);
 });
