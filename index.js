@@ -44,16 +44,26 @@ server.post('/dogs', function(request, response){
                   .push(dogs)
                   .last()
                   .value();
-
 response.send(result);
 });
 
 server.put('/dogs/:id', function(request, response){
-  response.send('/dogs/:id');
+  var updatedDogsInfo = {
+    description: request.body.description,
+    isComplete: request.body.isComplete,
+  };
+  var updatedDogs = db.get('todos')
+                    .find({id: request.params.id})
+                    .assign(updatedTodoInfo)
+                    .value();
+  response.send(updatedDogs);
 });
 
 server.delete('/dogs/:id', function (request, response){
-  response.send('/dogs/:id');
+  var dogs = db.get('dogs')
+              .remove({id: request.params.id})
+              .value();
+  response.send(dogs);
 });
 
 server.listen(port, function(){
