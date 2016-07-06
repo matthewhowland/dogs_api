@@ -16,11 +16,16 @@ server.use(bodyParser.urlencoded({extended: true}));
 
 
 server.get('/dogs', function(request, response){
-  response.send('/dogs');
+  var result = db.get('dogs')
+  .value();
+response.send(result);
 });
 
 server.get('/dogs/:id', function(request, response){
-  response.send('/dogs/:id');
+  var todo = db.get('dogs')
+              .find({id: request.params.id})
+              .value();
+response.send(dogs);
 });
 
 server.post('/dogs', function(request, response){
