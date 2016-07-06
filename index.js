@@ -53,7 +53,10 @@ server.put('/dogs/:id', function(request, response){
 });
 
 server.delete('/dogs/:id', function (request, response){
-  response.send('/dogs/:id');
+  var dogs = db.get('dogs')
+              .remove({id: request.params.id})
+              .value();
+  response.send(dogs);
 });
 
 server.listen(port, function(){

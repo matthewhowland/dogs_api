@@ -1,63 +1,9 @@
 {
   "dogs": [
     {
-      "id": "b2efa075-29f5-4063-a4b5-1b16d99459af",
-      "dogname": "Ron"
-    },
-    {
-      "id": "5b6aaf33-4b7b-4349-891c-57aeca94d947",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
-      "id": "96b7c953-ffe8-4988-96e6-e4cd5568ed96",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
-      "id": "d70d2ece-c307-49eb-ab03-f7dd9e263561",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
-      "id": "b18ed4d2-bfcf-4e31-9602-be75b9038e90",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
-      "id": "bacfe2be-ae1b-4269-b4b8-349290a00d93",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
       "id": "bbc058d2-7981-42fa-8a4b-5953294b586d",
       "dogName": "Ron",
       "breed": "blackmouth curr",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
-      "id": "0749b397-39c7-448d-b3c0-fc54ebc392d2",
-      "likesDogs": true,
-      "likesHumans": true,
-      "likesKids": true,
-      "wantsPlaymates": true
-    },
-    {
-      "id": "0e224b70-1647-4bad-bab4-821b5f5b1891",
-      "dogName": "ralph",
       "likesDogs": true,
       "likesHumans": true,
       "likesKids": true,
