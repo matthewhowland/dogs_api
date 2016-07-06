@@ -44,12 +44,30 @@ server.post('/dogs', function(request, response){
                   .push(dogs)
                   .last()
                   .value();
-
 response.send(result);
 });
 
 server.put('/dogs/:id', function(request, response){
-  response.send('/dogs/:id');
+  var updatedDogsInfo = {
+    dogName: request.body.dogName,
+    breed: request.body.breed,
+    size: request.body.size,
+    color: request.body.color,
+    age: request.body.age,
+    gender: request.body.gender,
+    likesDogs: true,
+    likesHumans: true,
+    likesKids: true,
+    wantsPlaymates: true,
+    timesAtPark: request.body.timesAtPark,
+    notes: request.body.notes,
+  };
+
+  var updatedDogs = db.get('dogs')
+                    .find({id: request.params.id})
+                    .assign(updatedDogsInfo)
+                    .value();
+  response.send(updatedDogs);
 });
 
 server.delete('/dogs/:id', function (request, response){
