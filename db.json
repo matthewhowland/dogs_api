@@ -161,6 +161,47 @@
       "likesHumans": true,
       "likesKids": true,
       "wantsPlaymates": true
+    },
+    {
+      "id": "5ac0799a-49bc-444b-ba66-c6ce77809e4b",
+      "dogName": "test6",
+      "breed": "pit",
+      "size": "small",
+      "color": "red",
+      "age": "3",
+      "gender": "female",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true
+    },
+    {
+      "id": "3bed4d77-de5a-4225-8809-a6e8bd292146",
+      "dogName": "test7",
+      "breed": "pit",
+      "size": "small",
+      "color": "red",
+      "age": "3",
+      "gender": "female",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true
+    },
+    {
+      "id": "d901a13a-4426-4ff8-b9b5-9053c88a040f",
+      "dogName": "test7",
+      "breed": "pit",
+      "size": "small",
+      "color": "red",
+      "age": "4",
+      "gender": "female",
+      "timesAtPark": "unknown",
+      "notes": "happy",
+      "likesDogs": true,
+      "likesHumans": true,
+      "likesKids": true,
+      "wantsPlaymates": true
     }
   ]
 }
