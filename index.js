@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var lowdb = require('lowdb');
 var server = express();
 var uuid = require('uuid');
-
+var cors = require('cors');
 var Dog = require('./models/dogs.js')
 
 var port = process.env.PORT || 8080;
@@ -15,7 +15,7 @@ db.defaults({dogs: []})
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
-
+server.use(cors());
 
 server.get('/dogs', function(request, response){
   var result = db.get('dogs')
